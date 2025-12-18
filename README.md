@@ -35,7 +35,7 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 **PROGRAM**
 
 /* 
-'''
+```
 module exp11(out,clk,rst);
 input clk,rst;
 output reg [3:0]out;
@@ -61,7 +61,7 @@ begin
      out <= out-1;
 end
 endmodule
-'''
+```
 Developed by:Dharshansri D A RegisterNumber:25017586
 */
 
